@@ -24,7 +24,7 @@ function LocationDetails(props) {
 export async function getStaticPaths() {
 
   const client = await MongoClient.connect(
-    "mongodb+srv://geo:geomongo351@cluster0.gzpjq.mongodb.net/locations?retryWrites=true&w=majority"
+   
   );
 
   const db = client.db();
