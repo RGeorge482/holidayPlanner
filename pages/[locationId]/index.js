@@ -50,7 +50,7 @@ export async function getStaticProps(context) {
   const locationId = context.params.locationId;
 
   const client = await MongoClient.connect(
-    "mongodb+srv://geo:geomongo351@cluster0.gzpjq.mongodb.net/locations?retryWrites=true&w=majority"
+   
   );
 
   const db = client.db();
